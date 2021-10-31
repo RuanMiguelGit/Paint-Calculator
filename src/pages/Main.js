@@ -1,9 +1,9 @@
-import React from 'react';
+import React from 'react'
 
 function Main() {
   return (
     <div>
-      "Hello World!"
+      "Hello World!!!"
     </div>
   );
 }

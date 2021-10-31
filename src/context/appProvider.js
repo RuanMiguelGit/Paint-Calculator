@@ -1,4 +1,6 @@
 /* eslint-disable */
+import React from 'react';
+import PropTypes from 'prop-types';
 import appContext from './appContext';
 
 function Provider({ children }) {
