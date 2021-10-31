@@ -1,5 +1,6 @@
 {
   "name": "suvirepublic",
+  "homepage": "http://RuanMiguelGit.github.io/DR_CHALLENGE",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -22,7 +23,9 @@
     "test:functional": "jest --projects ./test --forceExit --runInBand",
     "test:unit": "jest",
     "style:check": "prettier --check 'src/**/*.js' 'test/**/*.js'",
-    "style:fix": "prettier --write 'src/**/*.js' 'test/**/*.js'"
+    "style:fix": "prettier --write 'src/**/*.js' 'test/**/*.js'",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
