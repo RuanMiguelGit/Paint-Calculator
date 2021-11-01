@@ -18,7 +18,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint ./src ./test --ext .js",
+    "lint": "eslint ./src  --ext .js",
     "lint:fix": "eslint ./src ./test --ext .js --fix",
     "test:functional": "jest --projects ./test --forceExit --runInBand",
     "test:unit": "jest",
