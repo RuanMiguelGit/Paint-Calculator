@@ -21,7 +21,7 @@ export default function Input({ testId, type, name, value, change, inputclass })
 Input.propTypes = {
   testId: PropTypes.string.isRequired,
   type: PropTypes.string.isRequired,
-  name: PropTypes.bool.isRequired,
+  name: PropTypes.string.isRequired,
   change: PropTypes.func.isRequired,
   value: PropTypes.string.isRequired,
   inputclass: PropTypes.string.isRequired,

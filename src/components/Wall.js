@@ -2,6 +2,7 @@ import React, { useState }  from 'react';
 import Input from '../components/Input'
 import PropTypes from 'prop-types';
 import Doors from './Doors';
+import Window from './Window';
 
 // testId, type, name, value, change, inputclass 
 function Wall( { Style, InputClass } ) {
@@ -15,7 +16,7 @@ function Wall( { Style, InputClass } ) {
       Style='wall-holder' 
       InputClass='input-door'
       />
-      <Doors
+      <Window
       Style='wall-holder' 
       InputClass='input-door'
       />
