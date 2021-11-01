@@ -1,13 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Button({ title, className, onClick }) {
+function Button({ Title, Style, onClick }) {
   return (
     <div>
       <button
-      className={className}
+      Style={Style}
       onClick={onClick}
-      >{title}
+      >{Title}
       </button>
     </div>
   );
@@ -16,7 +16,7 @@ function Button({ title, className, onClick }) {
 export default Button;
 
 Button.propTypes = {
-  title: PropTypes.string.isRequired,
-  className: PropTypes.string.isRequired,
+  Title: PropTypes.string.isRequired,
+  Style: PropTypes.string.isRequired,
   onClick: PropTypes.func.isRequired,
 };

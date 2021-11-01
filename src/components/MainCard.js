@@ -4,7 +4,7 @@ import Button from '../components/Button'
 function MainCard( { Style } ) {
   return (
     <div className={Style}>
-        <Button />
+        {/* <Button /> */}
     </div>
   );
 }
