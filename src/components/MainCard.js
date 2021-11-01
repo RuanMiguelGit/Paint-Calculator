@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import Wall from './Wall';
-import Doors from './Doors';
+import Button from '../components/Button';
 
 function MainCard( { Style } ) {
-  const [item, setItem] = useState(4)
-  const [loading, setLoading] = useState(false)
+  const [item] = useState(4)
+  const [loading] = useState(false)
   
   return (
     <div className={ Style }>
@@ -17,7 +17,11 @@ function MainCard( { Style } ) {
            />
       )
       }
-
+    <Button
+    Title="CALCULAR"
+    Style="btn"
+    onClick={()=>  console.log('data')}
+    />
     </div>
   );
 }

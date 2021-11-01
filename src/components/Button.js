@@ -5,7 +5,7 @@ function Button({ Title, Style, onClick }) {
   return (
     <div>
       <button
-      Style={Style}
+      className={Style}
       onClick={onClick}
       >{Title}
       </button>
