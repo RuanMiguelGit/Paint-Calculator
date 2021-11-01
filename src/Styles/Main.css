@@ -38,6 +38,60 @@
 
 }
 
+.wall-holder {
+  background-color: rgb(41, 37, 37);
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  color:white;
+  display: inline-block;
+  margin-left: 10%;
+  margin-top: 2%;
+  flex-direction: row;
+  width: 35%;
+  height: 38%;
+}
+
+.input-height {
+  background-color: white;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  color: black;
+  display: inline-block;
+  margin: 8px 0;
+  padding: 10px 18px;
+  margin-left: 20%;
+  /* margin-top: -10 */
+  width: 20%;
+}
+
+.input-door {
+  background-color: white;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  color: black;
+  margin: 5px 0;
+  margin-left: 50%;
+  width: 20%;
+}
+
+.btn {
+  background-color: #3b7a01; /* Green */
+  border: none;
+  border-radius: 2%;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2) , 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: white;
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+  height: 12%;
+  margin-left: 43%;
+  margin-top: 2%;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  width: 12%;
+}
+
 @media screen and (max-width: 500px) {
     .header  {
       float: none;

@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 
 export default function Input({ testId, type, name, value, change, inputclass }) {
   return (
+    <div>
     <input
       type={ type }
       placeholder={ name }
@@ -12,13 +13,15 @@ export default function Input({ testId, type, name, value, change, inputclass })
       className={ inputclass }
       data-testid={ testId }
     />
+      {} {name}
+    </div>
   );
 }
 
 Input.propTypes = {
   testId: PropTypes.string.isRequired,
   type: PropTypes.string.isRequired,
-  name: PropTypes.bool.isRequired,
+  name: PropTypes.string.isRequired,
   change: PropTypes.func.isRequired,
   value: PropTypes.string.isRequired,
   inputclass: PropTypes.string.isRequired,
