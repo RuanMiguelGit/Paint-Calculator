@@ -1,9 +1,13 @@
 import React from 'react'
+import Footer from '../components/Footer';
+import Header from '../components/Header';
+import '../Styles/Main.css'
 
 function Main() {
   return (
     <div>
-      "Hello World!!!"
+      <Header Style='header' />
+      <Footer Style='footer'/>
     </div>
   );
 }
