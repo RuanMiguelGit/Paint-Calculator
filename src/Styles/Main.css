@@ -38,6 +38,31 @@
 
 }
 
+.wall-holder {
+  background-color: rgb(41, 37, 37);
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  color:white;
+  display: inline-block;
+  margin-left: 2%;
+  margin-top: 2%;
+  flex-direction: row;
+  width: 45%;
+  height: 30%;
+}
+
+.input-height{
+  background-color: white;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  color: black;
+  display: inline-block;
+  margin: 8px 0;
+  padding: 12px 20px;
+  margin-left: 2%;
+  width: 20%;
+}
+
 @media screen and (max-width: 500px) {
     .header  {
       float: none;

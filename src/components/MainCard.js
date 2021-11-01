@@ -1,10 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Button from '../components/Button'
+import Wall from './Wall';
+
 function MainCard( { Style } ) {
   return (
-    <div className={Style}>
-        {/* <Button /> */}
+    <div className={ Style }>
+      <Wall Style='wall-holder' InputClass='input-height'/>
+      <Wall Style='wall-holder' InputClass='input-height'/>
+      <Wall Style='wall-holder' InputClass='input-height'/>
+      <Wall Style='wall-holder' InputClass='input-height'/>
     </div>
   );
 }
