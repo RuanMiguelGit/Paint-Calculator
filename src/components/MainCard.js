@@ -1,63 +1,23 @@
-import React, { useContext } from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import Wall from './Wall';
-import appContext from '../context/appContext';
+import Doors from './Doors';
 
 function MainCard( { Style } ) {
+  const [item, setItem] = useState(4)
+  const [loading, setLoading] = useState(false)
   
-  const 
-  { 
-    wallOne,
-    wallTwo,
-    wallThree,
-    wallFour,
-    setWallOne,
-    setwallTwo,
-    setwallThree,
-    setwallFour,
-    wallOneH,
-    wallTwoH,
-    wallThreeH,
-    wallFourH,
-    setWallOneH,
-    setwallTwoH,
-    setwallThreeH,
-    setwallFourH
-  } = useContext(appContext)
-
   return (
     <div className={ Style }>
-      <Wall 
-      Style='wall-holder' 
-      InputClass='input-height' 
-      valueW={ wallOne } 
-      setterW={ setWallOne }
-      valueH={ wallOneH } 
-      setterH={ setWallOneH }/>
-      <Wall 
-      Style='wall-holder' 
-      InputClass='input-height' 
-      valueW={ wallTwo } 
-      setterW={ setwallTwo }
-      valueH={ wallTwoH } 
-      setterH={ setwallTwoH }
-      />
-      <Wall 
-      Style='wall-holder' 
-      InputClass='input-height' 
-      valueW={ wallThree } 
-      setterW={ setwallThree}
-      valueH={ wallThreeH } 
-      setterH={ setwallThreeH }
-      />
-      <Wall 
-      Style='wall-holder' 
-      InputClass='input-height' 
-      valueW={ wallFour } 
-      setterW={ setwallFour } 
-      valueH={ wallFourH } 
-      setterH={ setwallFourH }
-      />
+      { loading  ? "Carregando" :[...Array(item)].map((data) =>
+          <Wall 
+           key={ data }
+           Style='wall-holder' 
+           InputClass='input-height' 
+           />
+      )
+      }
+
     </div>
   );
 }

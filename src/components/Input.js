@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 
 export default function Input({ testId, type, name, value, change, inputclass }) {
   return (
+    <div>
     <input
       type={ type }
       placeholder={ name }
@@ -12,6 +13,8 @@ export default function Input({ testId, type, name, value, change, inputclass })
       className={ inputclass }
       data-testid={ testId }
     />
+      {} {name}
+    </div>
   );
 }
 
