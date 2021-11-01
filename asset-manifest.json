@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/DR_CHALLENGE/static/css/main.628166b4.chunk.css",
+    "main.css": "/DR_CHALLENGE/static/css/main.72dc0df0.chunk.css",
     "main.js": "/DR_CHALLENGE/static/js/main.e974f2a2.chunk.js",
     "main.js.map": "/DR_CHALLENGE/static/js/main.e974f2a2.chunk.js.map",
     "runtime-main.js": "/DR_CHALLENGE/static/js/runtime-main.54ad3dda.js",
@@ -10,13 +10,13 @@
     "static/js/3.6410c30d.chunk.js": "/DR_CHALLENGE/static/js/3.6410c30d.chunk.js",
     "static/js/3.6410c30d.chunk.js.map": "/DR_CHALLENGE/static/js/3.6410c30d.chunk.js.map",
     "index.html": "/DR_CHALLENGE/index.html",
-    "static/css/main.628166b4.chunk.css.map": "/DR_CHALLENGE/static/css/main.628166b4.chunk.css.map",
+    "static/css/main.72dc0df0.chunk.css.map": "/DR_CHALLENGE/static/css/main.72dc0df0.chunk.css.map",
     "static/js/2.ded6b26d.chunk.js.LICENSE.txt": "/DR_CHALLENGE/static/js/2.ded6b26d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.54ad3dda.js",
     "static/js/2.ded6b26d.chunk.js",
-    "static/css/main.628166b4.chunk.css",
+    "static/css/main.72dc0df0.chunk.css",
     "static/js/main.e974f2a2.chunk.js"
   ]
 }
